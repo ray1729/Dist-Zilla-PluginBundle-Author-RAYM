@@ -1,4 +1,7 @@
 package Dist::Zilla::PluginBundle::Author::RAYM;
+{
+  $Dist::Zilla::PluginBundle::Author::RAYM::VERSION = '0.001';
+}
 
 # ABSTRACT: Dist::Zilla plugin bundle used by RAYM
 
@@ -108,7 +111,18 @@ no Moose;
 1;
 
 
+
+
+
 =pod
+
+=head1 NAME
+
+Dist::Zilla::PluginBundle::Author::RAYM - Dist::Zilla plugin bundle used by RAYM
+
+=head1 VERSION
+
+version 0.001
 
 =head1 DESCRIPTION
 
@@ -191,6 +205,18 @@ your code, they will be provided automatically.
 
 This bundle is mostly stolen from Dist::Zilla::PluginBundle::Author::OLIVER.
 
+=head1 AUTHOR
+
+Ray Miller
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2012 by Ray Miller.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
 =cut
+
 
 __END__
