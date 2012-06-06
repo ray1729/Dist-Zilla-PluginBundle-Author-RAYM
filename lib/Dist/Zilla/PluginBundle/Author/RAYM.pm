@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::Author::RAYM;
 {
-  $Dist::Zilla::PluginBundle::Author::RAYM::VERSION = '0.001';
+  $Dist::Zilla::PluginBundle::Author::RAYM::VERSION = '0.002';
 }
 
 # ABSTRACT: Dist::Zilla plugin bundle used by RAYM
@@ -60,7 +60,6 @@ sub configure {
         'Test::Compile',
         'NoSmartCommentsTests',
         'NextRelease',
-        'FakeRelease',
         [
             'PruneFiles' => {
                 'filenames' => 'dist.ini',
@@ -122,7 +121,7 @@ Dist::Zilla::PluginBundle::Author::RAYM - Dist::Zilla plugin bundle used by RAYM
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 

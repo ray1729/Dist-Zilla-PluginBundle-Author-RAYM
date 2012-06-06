@@ -24,4 +24,4 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-PluginBundle-Author-RAYM
   homepage: https://github.com/ray1729/Dist-Zilla-PluginBundle-Author-RAYM/wiki
   repository: git://github.com/ray1729/Dist-Zilla-PluginBundle-Author-RAYM.git
-version: 0.001
+version: 0.002
