@@ -57,7 +57,6 @@ sub configure {
         'Test::Compile',
         'NoSmartCommentsTests',
         'NextRelease',
-        'FakeRelease',
         [
             'PruneFiles' => {
                 'filenames' => 'dist.ini',
